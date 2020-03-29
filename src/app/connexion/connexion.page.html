@@ -1,0 +1,39 @@
+<ion-content>
+  
+    <ion-toolbar>
+      <ion-button color="light"slot="start">
+        <ion-back-button  defaultHref="/tab1.page"></ion-back-button>
+      </ion-button>
+      <ion-title color="light">CONNEXION</ion-title>
+    </ion-toolbar>
+  
+
+  <div class="padding">
+        
+    <div class="logo">
+        <ion-icon color="light" slot="start" name="person-circle-outline"></ion-icon>
+    </div>
+    <ion-item>
+        <ion-label >EMAIL</ion-label>
+        <ion-input color="light" placeholder="adresse email" type="email"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label >MOT DE PASSE</ion-label>
+        <ion-input color="light" placeholder="votre mot de passe" type="password"></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+        <ion-button routerLink="/rectification"  color="light" fill="clear" slot="end">mot de passe oublié ?</ion-button>
+    </ion-item>
+    <ion-button routerLink="/home" color="light" shape="round" expand="block"  slot="end">CONNEXION</ion-button>
+    <br>
+     
+   
+    
+            <ion-button  shape="round" expand="block" >
+                  FACEBOOK</ion-button>
+
+</div>
+
+
+
+</ion-content>

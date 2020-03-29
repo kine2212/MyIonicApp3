@@ -1,0 +1,30 @@
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Accueil
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="padding">
+    <div class="appliLogo">
+     
+      <!-- <ion-icon slot="start" name="globe-outline"></ion-icon> -->
+      <img src="../../assets/logo.jpg">
+    </div>
+    
+    <ion-button routerLink="/inscription"  color="dark"  shape="round" expand = "block"  >
+      <ion-icon slot="start" name="globe-outline"></ion-icon> 
+      login
+      </ion-button>
+      <br>
+      <br>
+      <ion-button  routerLink="/connexion" shape="round" color="light" expand = "block" fill="outline">
+        <ion-icon slot="start" name="close"></ion-icon> 
+        sign up
+      </ion-button>
+  </div>
+ </ion-content>
+  
